@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // URL của backend (đảm bảo backend đang chạy trên localhost:5000)
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api/students',
+  baseURL: 'http://localhost:8080/api/students',
   headers: {
     'Content-Type': 'application/json',
   },
